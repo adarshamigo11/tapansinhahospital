@@ -1,0 +1,57 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b2e5c"/>
+      <stop offset="100%" stop-color="#123a72"/>
+    </linearGradient>
+  </defs>
+
+  <!-- outer ring -->
+  <circle cx="100" cy="100" r="96" fill="url(#ringGrad)"/>
+  <circle cx="100" cy="100" r="96" fill="none" stroke="#ff9933" stroke-width="4"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#128807" stroke-width="2.5"/>
+
+  <!-- inner white disc -->
+  <circle cx="100" cy="100" r="78" fill="#ffffff"/>
+  <circle cx="100" cy="100" r="78" fill="none" stroke="#0b2e5c" stroke-width="1.5"/>
+
+  <!-- laurel-style side ticks (Ashoka-inspired restraint) -->
+  <g stroke="#a97a1f" stroke-width="2" opacity="0.55">
+    <line x1="34" y1="70" x2="26" y2="66"/>
+    <line x1="30" y1="84" x2="21" y2="82"/>
+    <line x1="30" y1="100" x2="20" y2="100"/>
+    <line x1="30" y1="116" x2="21" y2="118"/>
+    <line x1="34" y1="130" x2="26" y2="134"/>
+
+    <line x1="166" y1="70" x2="174" y2="66"/>
+    <line x1="170" y1="84" x2="179" y2="82"/>
+    <line x1="170" y1="100" x2="180" y2="100"/>
+    <line x1="170" y1="116" x2="179" y2="118"/>
+    <line x1="166" y1="130" x2="174" y2="134"/>
+  </g>
+
+  <!-- caduceus / medical staff -->
+  <g transform="translate(100,96)">
+    <rect x="-2.4" y="-38" width="4.8" height="66" rx="2.4" fill="#0b2e5c"/>
+    <!-- wings -->
+    <path d="M -2 -30 C -22 -34 -34 -22 -34 -8 C -34 -18 -20 -24 -2 -20 Z" fill="#128807"/>
+    <path d="M 2 -30 C 22 -34 34 -22 34 -8 C 34 -18 20 -24 2 -20 Z" fill="#128807"/>
+    <!-- serpents -->
+    <path d="M -2 -34 C -22 -26 18 -14 -2 -4 C -22 6 18 16 -2 26 C -18 32 6 36 -2 28"
+          fill="none" stroke="#ff9933" stroke-width="3.4" stroke-linecap="round"/>
+    <path d="M 2 -34 C 22 -26 -18 -14 2 -4 C 22 6 -18 16 2 26 C 18 32 -6 36 2 28"
+          fill="none" stroke="#b3121b" stroke-width="3.4" stroke-linecap="round"/>
+    <!-- top knob -->
+    <circle cx="0" cy="-36" r="5.5" fill="#a97a1f"/>
+  </g>
+
+  <!-- base ribbon text ring -->
+  <path id="topArc" d="M 30 60 A 78 78 0 0 1 170 60" fill="none"/>
+  <path id="botArc" d="M 24 138 A 84 84 0 0 0 176 138" fill="none"/>
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="12.5" fill="#0b2e5c" letter-spacing="1.4">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">TAPAN SINHA MEMORIAL</textPath>
+  </text>
+  <text font-family="Arial, sans-serif" font-size="10" fill="#b3121b" letter-spacing="2" font-weight="bold">
+    <textPath href="#botArc" startOffset="50%" text-anchor="middle">HOSPITAL &#8226; TOLLYGUNGE</textPath>
+  </text>
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 560 110" xmlns="http://www.w3.org/2000/svg">
+  <!-- mini emblem -->
+  <g transform="translate(6,5)">
+    <circle cx="50" cy="50" r="48" fill="#0b2e5c"/>
+    <circle cx="50" cy="50" r="48" fill="none" stroke="#ff9933" stroke-width="3"/>
+    <circle cx="50" cy="50" r="43" fill="none" stroke="#128807" stroke-width="1.6"/>
+    <circle cx="50" cy="50" r="38" fill="#ffffff"/>
+    <g transform="translate(50,50)">
+      <rect x="-2.1" y="-19" width="4.2" height="34" rx="2.1" fill="#0b2e5c"/>
+      <path d="M -1.8 -15 C -12 -17 -18 -11 -18 -4 C -18 -9 -10 -12 -1.8 -10 Z" fill="#128807"/>
+      <path d="M 1.8 -15 C 12 -17 18 -11 18 -4 C 18 -9 10 -12 1.8 -10 Z" fill="#128807"/>
+      <path d="M -1.8 -17 C -12 -13 9 -7 -1.8 -2 C -12 3 9 8 -1.8 13"
+            fill="none" stroke="#ff9933" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M 1.8 -17 C 12 -13 -9 -7 1.8 -2 C 12 3 -9 8 1.8 13"
+            fill="none" stroke="#b3121b" stroke-width="1.8" stroke-linecap="round"/>
+      <circle cx="0" cy="-18" r="3" fill="#a97a1f"/>
+    </g>
+  </g>
+
+  <!-- wordmark -->
+  <text x="120" y="46" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#0b2e5c" font-weight="bold">Tapan Sinha</text>
+  <text x="120" y="76" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#0b2e5c">Memorial Hospital</text>
+  <text x="121" y="96" font-family="Arial, sans-serif" font-size="12.5" fill="#b3121b" letter-spacing=".4">Govt. of West Bengal  |  Tollygunge, Kolkata</text>
+</svg>
